@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barakallahu Fii Umrik - Anggun Nafisatul Uyun</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --soft-blue: #e3f2fd;
+            --ocean-blue: #1a5276;
+            --gold: #b7950b;
+            --white: #ffffff;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--soft-blue);
+            color: var(--ocean-blue);
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), 
+                        url('https://i.ibb.co.com/Q3Cy9Bxc/7f661dea43c00ac780e611dfb7754f60-0.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.8rem;
+            margin-bottom: 0;
+            color: var(--ocean-blue);
+        }
+
+        .date-badge {
+            background: var(--ocean-blue);
+            color: white;
+            padding: 5px 20px;
+            border-radius: 50px;
+            font-weight: 300;
+            margin-top: 15px;
+            letter-spacing: 2px;
+        }
+
+        /* Message Section */
+        .content-section {
+            max-width: 900px;
+            margin: -50px auto 50px;
+            background: var(--white);
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            position: relative;
+            z-index: 2;
+            text-align: center;
+        }
+
+        .main-text {
+            font-size: 1.1rem;
+            line-height: 2;
+            color: #444;
+            font-style: italic;
+        }
+
+        /* Gallery Grid */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .gallery-item {
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+            border: 4px solid white;
+            transition: transform 0.3s;
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-10px);
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            display: block;
+        }
+
+        footer {
+            text-align: center;
+            padding: 50px;
+            font-family: 'Playfair Display', serif;
+            color: var(--gold);
+        }
+
+        /* Animations */
+        .fade-in {
+            animation: fadeIn 2s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 2rem; }
+            .content-section { padding: 30px 20px; margin: -30px 15px 30px; }
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero fade-in">
+        <p style="letter-spacing: 3px; margin-bottom: 0;">HAPPY BIRTHDAY</p>
+        <h1>Anggun Nafisatul Uyun</h1>
+        <div class="date-badge">7 MARET 2007 - 2026</div>
+    </section>
+
+    <section class="content-section fade-in">
+        <img src="https://i.ibb.co.com/JwZpdKGx/IMG-20251210-121915876.jpg" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid var(--gold); margin-bottom: 20px;">
+        <p class="main-text">
+            "Barakallahu fii umrik untuk sosok yang kehadirannya adalah salah satu syukur terbesarku. 
+            Di tanggal 7 Maret ini, tepat 19 tahun yang lalu, Allah menghadirkanmu ke dunia sebagai anugerah. 
+            Semoga di usia yang semakin dewasa ini, Allah senantiasa melimpahkan keberkahan, memudahkan setiap urusanmu, 
+            dan menjaga hatimu agar tetap istiqomah dalam kebaikan. Terima kasih telah menjadi bagian indah dalam perjalananku."
+        </p>
+    </section>
+
+    <div class="gallery">
+        <div class="gallery-item"><img src="https://i.ibb.co.com/Q3Cy9Bxc/7f661dea43c00ac780e611dfb7754f60-0.jpg"></div>
+        <div class="gallery-item"><img src="https://i.ibb.co.com/r2dn2HJf/9f93de62a630a7d67659b00e6b9ba5a8-0.jpg"></div>
+        <div class="gallery-item"><img src="https://i.ibb.co.com/Q74cSRgh/14c4f2f835ca1994bb040e5e80c222c2-0.jpg"></div>
+        <div class="gallery-item"><img src="https://i.ibb.co.com/VpHS70w8/47ec71b7aef9e6d72d3d9d4be1c669d9-0.jpg"></div>
+        <div class="gallery-item"><img src="https://i.ibb.co.com/KjysxDWY/a17375e9c14523eef9908395722013d0-0.jpg"></div>
+        <div class="gallery-item"><img src="https://i.ibb.co.com/4RKnCHXM/cc99dc7b16a47638dec9fec7c07b2b38-0.jpg"></div>
+        <div class="gallery-item"><img src="https://i.ibb.co.com/5h4K67vN/deda80f390a04b7e6aabc825a54be978-0.jpg"></div>
+        <div class="gallery-item"><img src="https://i.ibb.co.com/S4Dn2y6m/ed73591bc0fddc93b943dd05b7ee9a29-0.jpg"></div>
+    </div>
+
+    <footer>
+        <p>— Dengan tulus, Untukmu di Hari Bahagiamu —</p>
+    </footer>
+
+</body>
+</html>
